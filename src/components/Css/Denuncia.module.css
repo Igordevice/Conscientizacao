@@ -1,0 +1,102 @@
+.denuncia {
+  background-color: #384030;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;        /* centraliza tudo na vertical */
+  justify-content: center;    /* centraliza o conjunto na horizontal */
+  gap: 50px;
+  padding: 48px 70px;
+  min-height: 250px;          /* troquei height fixo por min-height */
+}
+
+.texto_denuncia {
+  color: #fff;
+  max-width: 380px;
+}
+
+.texto_denuncia h2 {
+  font-size: 30px;
+  margin: 0 0 10px ;
+}
+
+.texto_denuncia p {
+  font-size: 13px;
+  color: #e0e0e0;
+  margin: 0;
+}
+
+.numero1 {
+  display: flex;
+  gap: 12px;
+}
+
+.numero1 {
+  box-sizing: border-box;
+  width: 300px;
+  height: 130px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.numero1 h3 {
+  font-size: 20px;
+  margin: 0 0 8px 0;
+  color: #1a1a1a;
+}
+
+.numero1 p {
+  font-size: 13px;
+  color: #555;
+  margin: 0;
+}
+
+.numero1:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  border-color: #bdbdbd;
+}
+
+.numero2 {
+  display: flex;
+  gap: 12px;
+}
+
+.numero2 {
+  box-sizing: border-box;
+  width: 300px;
+  min-height: 130px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    /* agora funciona, porque é flex */
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.numero2 h3 {
+  font-size: 20px;
+  margin: 0 0 8px 0;
+  color: #1a1a1a;
+}
+
+.numero2 p {
+  font-size: 13px;
+  color: #555;
+  margin: 0;
+}
+
+.numero2:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  border-color: #bdbdbd;
+}

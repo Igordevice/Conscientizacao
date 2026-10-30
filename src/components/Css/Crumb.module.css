@@ -1,0 +1,111 @@
+.miolo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto_cabecalho h2{
+    font-size: 40px;
+    margin-left: 50px;
+}
+.texto_cabecalho p{
+    margin-left: 55px;
+    font-size: 20px;
+    line-height: 1.6;
+     color: #444;
+
+    
+}
+
+.conteudocrumb{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    margin: 50px;
+    
+}
+
+.card1_crumb h2{
+    font-size: 40px;
+}
+.card1_crumb p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card1_crumb{
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 24px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0 0.05);
+}
+.card1_crumb:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-color: #bdbdbd;
+    transition: transform 0.3s ease 0.1s;
+}
+
+.card2_crumb h2{
+    font-size: 40px;
+}
+.card2_crumb p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card2_crumb{
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 24px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.card2_crumb:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-color: #bdbdbd;
+    transition: transform 0.3s ease 0.2s;
+}
+
+.card3_crumb h2{
+    font-size: 40px;
+}
+.card3_crumb p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card3_crumb{
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 24px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0 0.05);
+}
+
+.card3_crumb:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-color: #bdbdbd;
+    transition: transform 0.3s ease 0.1s;
+}
+
+
+.card4_crumb h2{
+    font-size: 40px;
+}
+.card4_crumb p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card4_crumb{
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 24px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0 0.05);
+}
+
+.card4_crumb:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-color: #bdbdbd;
+    transition: transform 0.3s ease 0.1s;
+}
