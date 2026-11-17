@@ -53,14 +53,13 @@ function TemaDetalhe() {
     return (
       <main className={Styles.detalhe}>
         <h1>Tema não encontrado</h1>
-        <Link to="/Theme">Voltar para Temas</Link>
       </main>
     )
   }
 
   return (
     <main className={Styles.detalhe}>
-      <Link className={Styles.voltar} to="/Theme">&larr; Voltar para Temas</Link>
+
       <section className={Styles.cabecalho}>
         <div>
           <p className={Styles.etiqueta}>Entenda o tema</p>
@@ -73,10 +72,6 @@ function TemaDetalhe() {
         <article>
           <h2>O que é</h2>
           <p>{tema.sobre}</p>
-        </article>
-        <article>
-          <h2>O que diz a lei</h2>
-          <p>{tema.lei}</p>
         </article>
         <article>
           <h2>Como buscar ajuda</h2>

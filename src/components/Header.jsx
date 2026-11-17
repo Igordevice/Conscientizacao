@@ -10,8 +10,7 @@ function Header() {
                 <Link to="Theme">Temas</Link>
                 <Link to="graphic">Gráfico</Link>
                 <a href="Crumb">Estimativa</a>
-                
-                <a href="">Leis</a>
+            
 
             </nav>
 
