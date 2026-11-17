@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import Crumb from './components/Crumb'
 import Theme from './components/Theme'
 import Graphic from './components/graphic'
+import Denuncia from './components/denuncia'
 import TemaDetalhe from './components/TemaDetalhe'
 
 function App() {

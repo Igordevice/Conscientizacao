@@ -1,6 +1,6 @@
 import Styles from './Css/Denuncia.module.css'
 
-function Denuncia() {
+function denuncia() {
     return (
         <div className={Styles.denuncia}>
             <div className={Styles.texto_denuncia}>
@@ -24,4 +24,4 @@ function Denuncia() {
     )
 }
 
-export default Denuncia
+export default denuncia
